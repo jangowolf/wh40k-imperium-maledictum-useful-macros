@@ -1,0 +1,40 @@
+{
+  "id": "wh40k-imperium-maledictum-useful-macros",
+  "title": "Wh40k Imperium Maledictum useful macros",
+  "version": "1.0.0",
+  "compatibility": {
+    "minimum": "11",
+    "verified": "11"
+  },
+  "relationships": {
+    "systems": [
+      {
+        "id": "impmal",
+        "type": "system",
+        "compatibility": {}
+      }
+    ]
+  },
+  "description": "This is just a package containing a macro that rolls dice for character creation.\nhttps://www.youtube.com/watch?v=UpYftCtlBy8&amp;start=222",
+  "authors": [
+    {
+      "name": "jangowolf",
+      "url": "https://linktr.ee/jangowolf",
+      "discord": "jangowolf"
+    }
+  ],
+  "url": "https://github.com/jangowolf/wh40k-imperium-maledictum-useful-macros.git",
+  "packs": [
+    {
+      "name": "pack-1",
+      "label": "Wh40kIM Macros",
+      "path": "packs/pack-1",
+      "type": "Macro",
+      "system": "impmal",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    }
+  ]
+}
